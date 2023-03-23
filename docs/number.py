@@ -21,10 +21,10 @@ c = 0xABC
 
 # 4.Operator 연산자
 
-# 사칙연산
 a = 3
 b = 2
 
+# 사칙연산
 print(a+b) # 5
 print(a-b) # 1
 print(a*b) # 6
