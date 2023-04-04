@@ -1,36 +1,40 @@
+letters = 'python'
+print(letters[0]);print(letters[2])
+print(letters[0], letters[2])
 
-# letters = 'python'
-# print(letters[0], letters[2])
+license_plate = "24가 2210"
+print(license_plate[4:])
 
+string = "태하영바보똥"
+print(string[0],string[2],string[4],sep="")
+print(string[::2])
 
-# license_plate = "24가 2210"
-# print(license_plate[4:])
+string = "PYTHON"
 
-# string = "홀짝홀짝홀짝"
-# print(string[0], string[2], string[4])
+print(string[::-1])
 
-# string = "PYTHON"
-# print(string[::-1])
+phone_number = "010-1234-5678"
+print(phone_number.replace("-",""))
 
-phone_number = "010-1111-2222"
-# print(phone_number(sep="-"))
-# print(phone_number, sep=" ")
-# 문자열은 바꿀 수 없다!!!!!!!!
-phone_number1 = phone_number.replace("-", " ")  # 010 1111 2222
-phone_number1 = phone_number.replace("-", "")  # 01011112222
-print(phone_number1)
 
 url = "http://sharebook.kr"
-print(url[:-2])  # 틀림
+
 print(url[-2:])
 
 # lang = 'python'
 # lang[0] = 'p'
-# print(lang)  # Error
+# print(lang)
 
 # string = 'abcdfe2a354a32a'
+# string = string.replace('a','A')
 # print(string.upper())
+# print(string.replace('a','A'))
 
-string = 'abcd'
-string.replace('b', 'B')
-print(string)
+# string = 'abcd'
+# string.replace('b','B')
+# print(string)
+
+# 위와 아래의 차이
+# string = 'abcd'
+# bb = string.replace('b','B')
+# print(bb)
